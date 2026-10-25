@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: sysdev <sysdev@deepin.com>
 Standards-Version: 4.5.1
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
 
 Package: deepin-settings-default
 Architecture: all
@@ -20,8 +20,6 @@ Depends:
  eject,
  fonts-noto, 
  fonts-symbola
-Pre-Depends: 
- deepin-home (>= 1.6.0),
 Suggests:
  binfmt-support,
 Conflicts:
